@@ -1,0 +1,11 @@
+CodopenexAdminBundle_dashboard:
+    pattern:  /admin/
+    defaults: { _controller: CodopenexAdminBundle:Page:dashboard }
+    requirements:
+        _method:  GET
+
+CodopenexAdminBundle_users:
+    pattern:  /admin/users
+    defaults: { _controller: CodopenexAdminBundle:Page:users }
+    requirements:
+        _method:  GET

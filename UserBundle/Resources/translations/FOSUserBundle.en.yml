@@ -1,0 +1,10 @@
+registration:
+    register_details: Register Details
+
+security:
+    login:
+        login_details: Login Details
+
+profile:
+    edit:
+        edit_profile: Edit Profile

@@ -1,0 +1,10 @@
+{# src/Codopenex/AdminBundle/Resouces/views/dashboard.html.twig #}
+{% extends 'XperedonBlogBundle::layout.html.twig' %}
+
+{% block title %}Admin Dashboard{% endblock %}
+
+{% block body %}
+	{{ HelloAdmin }}<br />
+    <a href="{{ path('CodopenexAdminBundle_users') }}" title="Users" target="_self">Users</a><br />
+    <a href="#" title="Blog Entries" target="_self">Blog Entries</a><br />
+{% endblock %}
